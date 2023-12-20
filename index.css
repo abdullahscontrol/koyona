@@ -1,0 +1,60 @@
+:root {
+    --color-background: rgb(105, 2, 119);
+    --color-light: rgb(255, 255, 255);
+    /* --color-background: rgb(199, 120, 1); */
+    /* --color-background: rgb(199, 120, 1); */
+    /* --color-background: rgb(199, 120, 1); */
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: var(--color-light);
+}
+
+header h1 {
+    padding-left: 1rem;
+    color: var(--color-background);
+}
+
+.summary h1 {
+    font-size: 2rem;
+}
+
+.topics {
+    background-color: var(--color-background);
+    width: 100%;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding: 10px;
+    overflow-y: scroll;
+    color: #fff;
+
+}
+
+.topic {
+    margin-right: 1rem;
+
+}
+
+body {
+    width: 96vw;
+    margin-top: 9rem;
+    overflow-x: hidden;
+}
+
+.topic-v {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--color-background);
+}
+
+.v-text {
+    background-color: var(--color-background);
+    padding: 1rem;
+    color: var(--color-light);
+}
