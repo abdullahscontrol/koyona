@@ -18,7 +18,9 @@ header {
 header h1 {
     padding-left: 1rem;
     color: var(--color-background);
+    font-family: cursive;
 }
+
 
 .summary h1 {
     font-size: 2rem;
@@ -45,6 +47,16 @@ body {
     width: 96vw;
     margin-top: 9rem;
     overflow-x: hidden;
+    font-size: 17px;
+}
+
+#eng {
+    color: var(--color-background);
+    font-weight: 900;
+}
+
+#quest {
+    font-style: italic;
 }
 
 .topic-v {
